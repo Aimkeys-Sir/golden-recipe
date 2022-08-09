@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+.home{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-family:'Roboto',sans-serif;
+    text-align: bottom;
+    align-items: center;
+    padding: 90px;
+    justify-items: center;
+    background-image: url("https://coolmaterial.com/wp-content/uploads/2017/02/Cookware-That-Will-Last-for-a-Lifetime-of-Meals.jpg");
+}
+.home-text{
+background:#15151571 ;
+}
+.go{
+    background: linear-gradient(to right, #0c5028 20%,#7bd687);
+    width: 300px;
+    height: 80px;
+    border-radius: 55px;
+    position: relative;
+    padding: 12px;
+    cursor: pointer;
+}
+.go-circle{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+.go h3{
+    font-size: 24px;
+    margin-left: 60px;
+}
+.angles{
+    font-size: 30px;
+    margin: 22px 0 0 6px;
+    color: #0f3c22;
+}

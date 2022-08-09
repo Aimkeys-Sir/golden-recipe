@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+.recipe-page{
+    background: #f8f9fa;
+    height: 100vh;
+    font-family: "Roboto",sans-serif;
+}
+.top-bar{
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+.top-bar *{
+    margin: 5px;
+}
+.top-bar h3{
+font-size: 26px;
+}
+.icons{
+    color: #9E9E9E;
+    font-size: 26px;
+}
