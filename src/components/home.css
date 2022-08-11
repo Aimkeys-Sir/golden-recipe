@@ -8,23 +8,32 @@
     font-family:'Roboto',sans-serif;
     text-align: bottom;
     align-items: center;
-    padding: 90px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* padding: 90px; */
     justify-items: center;
     background-image: url("https://coolmaterial.com/wp-content/uploads/2017/02/Cookware-That-Will-Last-for-a-Lifetime-of-Meals.jpg");
 }
 .home-text{
 background:#15151571 ;
+padding: 10px;
+width: 100%;
+margin: 0 0 40px;
 }
 .go{
     background: linear-gradient(to right, #0c5028 20%,#7bd687);
     width: 300px;
     height: 80px;
     border-radius: 55px;
-    position: relative;
+    position: absolute;
     padding: 12px;
-    cursor: pointer;
+    margin: 30px;
+    
+    bottom: 20px;
 }
 .go-circle{
+    cursor: pointer;
     position: absolute;
     width: 75px;
     height: 75px;

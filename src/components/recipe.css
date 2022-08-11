@@ -2,7 +2,7 @@
 
 .recipe-page{
     background: #f8f9fa;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: "Roboto",sans-serif;
 }
 .top-bar{
@@ -19,4 +19,28 @@ font-size: 26px;
 .icons{
     color: #9E9E9E;
     font-size: 26px;
+}
+.recipe-pic{
+    width: 400px;
+    height: 250px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 30px;
+}
+.ingredients{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.ingredients h4,p{
+    margin: 5px;
+}
+.ingredients h4{
+    font-size: 24px;
+}
+tr,td{
+  padding: 15px;  
+  text-transform: capitalize;
 }
