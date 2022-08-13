@@ -34,7 +34,6 @@ margin: 0 0 40px;
     bottom: 20px;
 }
 .go-circle{
-    cursor: pointer;
     transition: 1s;
     position: absolute;
     width: 75px;

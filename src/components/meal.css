@@ -1,7 +1,6 @@
 .meal-page {
     align-items: center;
     background: #f8f9fa;
-    height: 100vh;
 }
 
 form {
@@ -13,8 +12,13 @@ form {
     background: white;
     border-radius: 20px;
 }
-
-input {
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#search-input {
     width: 220px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -39,6 +43,11 @@ input {
     border-radius: 10px;
     cursor: pointer;
 }
+#switch img{
+    filter: invert(73%) sepia(9%) 
+    saturate(2684%) hue-rotate(82deg) 
+    brightness(90%) contrast(81%);
+}
 
 .categories {
     display: flex;
@@ -53,16 +62,22 @@ input {
     background: white;
     font-style: italic;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .cat:hover {
-background:#52BF6C;
-color: white;
+background:#52bb6b8b;
 font-weight: 600;
 }
 
 .cat-active {
-    background: #52BF6C;
+    background: #46a35c;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+}
+.cat-active:hover{
+    background: #46a35c;
 }
 .recipe-item{
     margin: 15px 25px;
@@ -91,7 +106,7 @@ font-weight: 600;
 }
 #fav-button{
     position: absolute;
-    background:#151515f9;;
+    background:#151515f9;
     color: white;
     border: none;
     outline: none;
@@ -109,28 +124,12 @@ font-weight: 600;
 }
 #anim-button{
     position: relative;
-    /* left: 20px;
-    top: 20px; */
     color: white;
-    /* background:#151515; */
-    /* display: flex; */
-    /* animation: border-anim 10s linear infinite both ; */
     height: 80px;
     width: 80px; 
-    /* background: conic-gradient(#52BF6C 1%,transparent 0); */
     border-radius: 50%;
+    cursor: pointer;
 }
-/* #anim-button::before{
-    content: "";
-    
-    height: 76px;
-    left: 2px;
-    top: 2px;
-    width: 76px;
-    position: absolute;
-    border-radius:50%;
-
-} */
 .go-texts h4{
     margin: 28px 0 0 10px;
     font-size: 20px;

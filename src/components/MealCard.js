@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight, faAngleUp, faBookmark } from "@fortawesome/free-solid-svg-icons"
 
-export default function MealCard({ recipe }) {
+export default function MealCard({ recipe,onRecipeClick }) {
     const [showInfo, setShowInfo] = useState(false)
     const [showInfop, setShowInfop] = useState(false)
 
@@ -12,15 +12,13 @@ export default function MealCard({ recipe }) {
 
     return (<div className="recipe-item" style={{ backgroundImage: `url(${recipe.picture})` }}>
         <button id="fav-button"><FontAwesomeIcon icon={faBookmark} /></button>
-        <div id="anim-button">
+        <div onClick={()=>onRecipeClick(recipe.name)} id="anim-button">
             <div className="go-texts">
                 <h4>Cook</h4>
                 <div id="go-icon">
                     <FontAwesomeIcon style={{margin:"0"}} icon={faAngleDoubleRight} />
                 </div>
             </div>
-           
-
             <svg className=".svg">
                 <circle className="circle" cx="43" cy="43" r="42"></circle>
             </svg>
