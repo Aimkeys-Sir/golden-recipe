@@ -91,3 +91,18 @@ height: 30px;
 #right{
     margin: 8px;
 }
+.list{
+    text-align: left; 
+    border: 2px solid #151515f9;
+    margin:10px ;
+    border-radius: 25px;
+}
+.list li{
+    margin: 5px;
+   cursor: pointer;
+}
+.selected{
+    font-weight:700;
+    font-size: 17px;
+}
+

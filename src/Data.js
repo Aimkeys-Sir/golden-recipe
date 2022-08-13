@@ -63,9 +63,9 @@ const recipes = [
             "Wash the rice and add into the boiling water. Cover to cook for 10 minutes",
             "Meanwhile mix the food colour in the 2 tablespoons of water.",
             "Add oil and cook for another 2 minutes.",
-            "dd the food colour and simmer for 13 minutes.",
+            "Add the food colour and simmer for 13 minutes.",
             "Remove from heat.",
-            "serve with biryani stew"
+            "Serve with biryani stew"
         ],
         preparation:5,
         cooking:25,
