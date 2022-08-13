@@ -4,6 +4,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import Instructions from './components/Instructions';
 import MealsPage from './components/MealsPage';
+import NewForm from './components/newForm';
 import Recipe from './components/Recipe';
 import { categories, recipes } from './Data'
 
@@ -41,11 +42,12 @@ function App() {
                   <Instructions recipe={recipeActive}/>
                 </Route>
               </Switch>
-              
             </Route>
           </Switch>
         </Route>
-
+        <Route path={"/new"}>
+          <NewForm categories={categories}/>
+        </Route>
       </Switch>
     </div >
   );
