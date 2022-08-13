@@ -1,10 +1,10 @@
 
-const categories = ["Rice","ugali","chapati","snacks"]
+const categories = ["Rice", "ugali", "chapati", "snacks"]
 
 const recipes = [
     {
         id: 1,
-        category:"rice",
+        category: "rice",
         name: "Pilau (Spiced Rice)",
         description: "Pilau  is the king of traditional rice cuisine among the Swahili community. Culturally, it is a must cook dishon Friday particularly during lunch. It is enjoyed by the entire family and often served with tomatoes, onions and chillies salad commonly known as (“kachumbari” or salsa) and accompanied with a ripe banana.This tastefully spiced dish is characterized by whole potatoes and meat chunks as key ingredients.",
         picture: "https://www.malindikenya.net/images/uploads/articoli/1163_l.jpg",
@@ -42,23 +42,23 @@ const recipes = [
             "Add water drained from boiling the meat, stir the rice and bring the mixture to boil for 25 minutes.",
             "Add the cooked meat to the boiling mixture. Cook for 30 minutes and serve"
         ],
-        preparation:20,
-        cooking:60,
-        serves:4
+        preparation: 20,
+        cooking: 60,
+        serves: 4
     },
     {
-        id:2,
-        category:"rice",
-        name:"Swahili Biryani Rice",
-        description:"This dish is common among the Swahili community in Kenya. The cuisine is also meat based and special emphasis is given to finding the right kinds of rice, spices, meat and herbs. It is simply steamed rice eaten with Biryani stew. It is particularly made using the fragrant species of rice. This colourful dish can be served for lunch, dinner or during wedding occasions.",
-        picture:"https://i.pinimg.com/564x/d8/3a/06/d83a0696cb9a7d2437f36a9e999b97ac.jpg",
-        ingredients:[
-            {"raw white rice":[1000,"5 3/4 cups"]},
-            {"water":[1874,"8 2/3 cups"]},
-            {"salt":[10,"2 tsp"]},
-            {"cooking oil":[85,"7 tsp"]}
+        id: 2,
+        category: "rice",
+        name: "Swahili Biryani Rice",
+        description: "This dish is common among the Swahili community in Kenya. The cuisine is also meat based and special emphasis is given to finding the right kinds of rice, spices, meat and herbs. It is simply steamed rice eaten with Biryani stew. It is particularly made using the fragrant species of rice. This colourful dish can be served for lunch, dinner or during wedding occasions.",
+        picture: "https://i.pinimg.com/564x/d8/3a/06/d83a0696cb9a7d2437f36a9e999b97ac.jpg",
+        ingredients: [
+            { "raw white rice": [1000, "5 3/4 cups"] },
+            { "water": [1874, "8 2/3 cups"] },
+            { "salt": [10, "2 tsp"] },
+            { "cooking oil": [85, "7 tsp"] }
         ],
-        instructions:[
+        instructions: [
             "Take out 2 tablespoons of water and put the rest ofthe water into a cooking pot, add salt and bring to a boil.",
             "Wash the rice and add into the boiling water. Cover to cook for 10 minutes",
             "Meanwhile mix the food colour in the 2 tablespoons of water.",
@@ -67,9 +67,9 @@ const recipes = [
             "Remove from heat.",
             "Serve with biryani stew"
         ],
-        preparation:5,
-        cooking:25,
-        serves:4
+        preparation: 5,
+        cooking: 25,
+        serves: 4
     }
 ]
-export {categories,recipes}
+export { categories, recipes }
