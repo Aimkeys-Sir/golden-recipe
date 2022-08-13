@@ -39,14 +39,17 @@ form {
     -moz-appearance: none;
     appearance: none;
     border: none;
-    width: 45px;
+    width: 75px;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 20px;
 }
-#switch img{
-    filter: invert(73%) sepia(9%) 
-    saturate(2684%) hue-rotate(82deg) 
-    brightness(90%) contrast(81%);
+#switch *{
+ margin-right:3px ;
+}
+#add-icon{
+    
+    color: #438552;
 }
 
 .categories {
