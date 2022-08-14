@@ -4,7 +4,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import Instructions from './components/Instructions';
 import MealsPage from './components/MealsPage';
-import NewForm from './components/newForm';
+import NewForm from './components/NewForm';
 import Recipe from './components/Recipe';
 import { categories, recipes } from './Data'
 
@@ -33,8 +33,8 @@ function App() {
             <Route exact path="/recipes/">
               <MealsPage onRecipeClick={handleRecipeClick} recipes={recipes} categories={categories} />
             </Route>
-            <Route path={`/recipes/${recipeName.split(" ")[0]}`}>
-              <Switch>
+             <Route path={`/recipes/${recipeName.split(" ")[0]}`}>
+             <Switch>
                 <Route exact path={`/recipes/${recipeName.split(" ")[0]}/`}>
                   {<Recipe recipe={recipeActive} />}
                 </Route>
