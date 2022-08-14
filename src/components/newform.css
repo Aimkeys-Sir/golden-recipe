@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+.newform{
+    font-family: "Roboto",sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.submit{
+    color: white;
+    font-size: 24px;
+    background: #151515df;
+    width: 45px;
+}
+#descr{
+    height: 150px;
+    width: 300px;
+}
+input[type="text"]{
+    font-size: 16px;
+    font-family: "Roboto";
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+}
+input[type="number"]{
+    border: none;
+    outline: none;
+    width: 30px;
+    font-size: 16px;
+}
+.for-new{
+    border: solid #151515f0;
+    border-width: 0 0 2px;
+    position: relative;
+    border-radius: 0;
+    display: flex;
+    width: 400px;
+    margin: 5px 5px 10px;
+}
+.for-new button{
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    right: 5px;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+#category{
+    background:#151515f0 ;
+    height: 30px;
+    width: 75px;
+   color:white;
+   border: none;
+   font-size: 18px;
+   font-family: "Roboto",sans-serif;
+   text-transform: capitalize;
+}
+option{
+    font-family: "Roboto",sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+}
