@@ -38,13 +38,12 @@ export default function Recipe({ recipe }) {
                 </thead>
                 <tbody>
                     {recipe.ingredients.map((item, index) => {
-                        const ing = Object.keys(item)[0]
                         const isEven = index % 2 === 0 ? true : false
                         return (<tr style={{ backgroundColor: `${isEven ? "#dEdEdE" : "fffff"}` }}>
                             <td>{index + 1}</td>
-                            <td>{ing}</td>
-                            <td>{item[ing][1]}</td>
-                            <td>{item[ing][0]}g</td>
+                            <td>{item.ingName}</td>
+                            <td>{item.amount[1]}</td>
+                            <td>{item.amount[0]}g</td>
                             <input value={true} className="check" type="checkbox" />
                         </tr>)
                     })}
